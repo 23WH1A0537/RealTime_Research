@@ -10,3 +10,45 @@ git remote add origin https://github.com/<your-username>/registration-demo.git
 git remote -v
 git branch -M main
 git push -u origin main
+
+
+
+
+  
+cd your-project-folder
+
+
+git init
+
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+
+git status
+
+# Add all files
+git add .
+
+
+git commit -m "Initial commit"
+
+# Add GitHub remote (replace with your repo URL)
+git remote add origin https://github.com/USERNAME/REPO-NAME.git
+
+# Rename branch to main
+git branch -M main
+
+# Push for the first time
+git push -u origin main
+
+
+
+# Add updated files
+git add .
+
+# Commit changes
+git commit -m "Updated work"
+
+# Push to GitHub
+git push
