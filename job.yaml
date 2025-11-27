@@ -12,3 +12,10 @@ spec:
         command: ["python"]
         args: ["app.py"]
       restartPolicy: Never
+
+    exp 9
+    go to folder
+    kubectl apply -f job.yaml
+    kubectl get pods
+    kubectl logs (link in above)
+    
